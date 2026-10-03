@@ -1,0 +1,15 @@
+{
+  "name": "Sollicitatie Rick Roelofs",
+  "short_name": "Rick Roelofs",
+  "description": "Motivatiebrief, cv en een korte game bij de sollicitatie van Rick Roelofs als senior beleidsadviseur bij VGN.",
+  "lang": "nl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#015ca9",
+  "icons": [
+    { "src": "icoon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icoon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="nl" data-inhoud="inhoud.bin?v=93627a6cd3">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#015ca9">
+<meta name="robots" content="noindex">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Rick Roelofs">
+<title>Rick Roelofs · Sollicitatie bij VGN</title>
+<meta name="description" content="Motivatiebrief, cv en een korte game bij de sollicitatie van Rick Roelofs als senior beleidsadviseur bij VGN.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icoon-180.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='2' y='2' width='12' height='12' rx='3' fill='%23015ca9'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/Urbanist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="start.css?v=93627a6cd3">
+<script src="start.js?v=93627a6cd3" defer></script>
+</head>
+<body>
+
+<header class="balk">
+  <div class="balk-binnen">
+    <p class="merk">Rick Roelofs</p>
+    <p class="rol">Gedragsdeskundige &amp; zorginnovator</p>
+  </div>
+</header>
+
+<main>
+  <section class="held" aria-labelledby="titel">
+    <div class="held-vlak">
+      <p class="kicker">Senior beleidsadviseur bij VGN</p>
+      <h1 id="titel" tabindex="-1">Welkom bij mijn sollicitatie</h1>
+
+      <p class="held-tekst" data-dicht>Een korte game, mijn motivatiebrief en mijn cv. Vul het wachtwoord in dat je van mij hebt gekregen.</p>
+      <p class="held-tekst" data-welkom hidden>Waar wil je beginnen?</p>
+
+      <form class="slot" data-dicht novalidate>
+        <label for="wachtwoord">Wachtwoord</label>
+        <div class="slot-rij">
+          <input id="wachtwoord" name="wachtwoord" type="password" autocomplete="current-password"
+            autocapitalize="none" autocorrect="off" spellcheck="false" required>
+          <button class="toon" type="button" aria-pressed="false">Toon</button>
+        </div>
+        <button class="knop" type="submit">Openen
+          <svg class="pijl" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 4.5 16.5 10 11 15.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="melding" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <div class="held-beeld" aria-hidden="true">
+      <img class="scherm" src="titel.png" alt="" width="320" height="192">
+    </div>
+  </section>
+
+  <section class="keuzes" aria-label="Kies waar je begint" hidden>
+    <a class="kaart" href="#spel" data-kies="spel">
+      <span class="label label-teal">Game</span>
+      <h2>Tussen twee talen</h2>
+      <p>Een korte 8-bit ervaring over zorg, technologie en wat we bij mensen houden. Ongeveer drie minuten, met geluid.</p>
+      <span class="lees">Speel de game <svg class="pijl" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 4.5 16.5 10 11 15.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+    <a class="kaart" href="#brief" data-kies="brief">
+      <span class="label label-roze">Brief</span>
+      <h2>Motivatiebrief</h2>
+      <p>Waarom ik bij VGN wil werken en wat ik meebreng.</p>
+      <span class="lees">Lees mijn brief <svg class="pijl" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 4.5 16.5 10 11 15.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+    <a class="kaart" href="#cv" data-kies="cv">
+      <span class="label label-oranje">Cv</span>
+      <h2>Curriculum vitae</h2>
+      <p>Opleiding, werkervaring en vaardigheden.</p>
+      <span class="lees">Bekijk mijn cv <svg class="pijl" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 4.5 16.5 10 11 15.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+  </section>
+
+  <p class="voet">Alle situaties in de game zijn verzonnen. Er wordt niets opgeslagen of gevolgd.</p>
+</main>
+
+<div class="laag laag-spel" data-laag="spel" hidden></div>
+
+<div class="laag laag-document" data-laag="brief" role="dialog" aria-modal="true" aria-label="Motivatiebrief" hidden>
+  <div class="laag-balk">
+    <button class="terug" type="button" data-sluit>
+      <svg class="pijl" viewBox="0 0 20 20" aria-hidden="true"><path d="M17 10H4M9 4.5 3.5 10 9 15.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Terug naar start
+    </button>
+    <a class="download" download="Motivatiebrief Rick Roelofs.pdf">Download pdf</a>
+  </div>
+  <div data-inhoud></div>
+</div>
+
+<div class="laag laag-document" data-laag="cv" role="dialog" aria-modal="true" aria-label="Curriculum vitae" hidden>
+  <div class="laag-balk">
+    <button class="terug" type="button" data-sluit>
+      <svg class="pijl" viewBox="0 0 20 20" aria-hidden="true"><path d="M17 10H4M9 4.5 3.5 10 9 15.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Terug naar start
+    </button>
+    <a class="download" download="CV Rick Roelofs.pdf">Download pdf</a>
+  </div>
+  <div data-inhoud></div>
+</div>
+
+<noscript><p class="geen-script">Deze pagina heeft JavaScript nodig.</p></noscript>
+
+</body>
+</html>
